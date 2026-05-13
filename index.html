@@ -4,21 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>設計稿──切版（１：１）</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <section class="header">
         <div class="logo">
-          <img src="" alt="logo" />
+          <img src="./assets/logo.svg" alt="品牌 Logo" />
         </div>
         <nav>
           <ul>
-            <li><a href="">首頁</a></li>
-            <li><a href="">作品集</a></li>
-            <li><a href="">服務項目</a></li>
-            <li><a href="">部落格</a></li>
-            <li><a href="">聯絡我</a></li>
+            <li><a href="#" style="font-weight: bold">首頁</a></li>
+            <li><a href="#">作品集</a></li>
+            <li><a href="#">服務項目</a></li>
+            <li><a href="#">部落格</a></li>
+            <li><a href="#">聯絡我</a></li>
           </ul>
         </nav>
       </section>
@@ -26,23 +33,46 @@
     <main>
       <section class="main">
         <div class="about-me">
-          <h1></h1>
-          <p class="intro-self"></p>
-          <p class="expertise"></p>
+          <h1>Hi! 我是 Noel</h1>
+          <p class="intro-self">
+            具有
+            <span class="gap-word">10</span>
+            <span class="gap-word">年經驗的</span>
+            <span class="gap-word">資深</span>
+            <span class="gap-word">UI</span>
+            <span class="gap-word">設計師</span>
+            <span class="gap-word">兼</span>
+            <span class="gap-word">前端工程師</span>
+            技術雙修並行，
+            <sapn class="gap-word">熱衷於優化使用者的網頁體驗</sapn>
+          </p>
+          <br />
+          <p class="expertise">
+            WEB DEVELOPMENT
+            <span class="gap-word">/</span>
+            <span class="gap-word">BRANDING</span>
+            <span class="gap-word">/</span>
+            <span class="gap-word">UI</span>
+            <span class="gap-word">/</span>
+            <span class="gap-word">UX</span>
+            <span class="gap-word">/</span> APP DESIGN
+          </p>
           <ul>
             <li>
-              <a href="#"></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
             </li>
             <li>
-              <a href="#"></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
             </li>
             <li>
-              <a href="#"></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
             </li>
           </ul>
         </div>
 
-        <div class="picture"></div>
+        <div class="picture">
+          <img src="./assets/hero-lg.svg" alt="Hero Large" />
+        </div>
       </section>
       <section class="intro-artwork">
         <h2>作品介紹</h2>
@@ -70,8 +100,37 @@
     </main>
     <footer>
       <section class="footer">
-        <div class="contact-me"></div>
-        <div class="go-to"></div>
+        <div class="contact-me">
+          <img src="./assets/logo.svg" alt="logo" />
+          <p>
+            若有數位產品設計和開發相關問題
+            <br />
+            歡迎填寫表單，
+            <span class="gap-word">或</span>直接與我聯絡！
+          </p>
+          <p>service@hexschool.com</p>
+        </div>
+        <div class="go-to">
+          <ul>
+            <li class="go-to1">
+              <img
+                src="./assets/list.svg"
+                alt="填寫表單"
+                width="56px"
+                height="56px"
+              />
+              <a href="#">填寫表單</a>
+            </li>
+            <li class="go-to2">
+              <i class="fa-brands fa-instagram"></i>
+              <a href="#">hexschool_demo</a>
+            </li>
+            <li class="go-to3">
+              <i class="fa-brands fa-facebook"></i>
+              <a href="#">hexschoolTW</a>
+            </li>
+          </ul>
+        </div>
       </section>
     </footer>
   </body>
